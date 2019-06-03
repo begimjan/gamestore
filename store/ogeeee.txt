@@ -1,0 +1,4 @@
+1. создать кнопку и input  приписать ей тип type="file" 
+2. добавить в тэг form атрибут enctype="multipart/form-data"
+3. для 3 input c типом file назвать атрибут name 
+4. move_uploaded_file() use this function and with argumants filename,destination= 
