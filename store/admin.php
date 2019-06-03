@@ -12,12 +12,10 @@
 </html>
 <div>
 	<form action="insert.php" method="POST" enctype="multipart/form-data">
- 		<input type="text" name="name">
- 		<input type="file" name="img">
- 		<input type="text" name="price">
- 		<button>
- 			добавить
- 		</button>
+ 		<input type="text" name="name"  placeholder="Name of game" style="margin-top: 10px;"><br>
+ 		<input type="file" name="img" placeholder="image" style="margin-top: 10px;"><br>
+ 		<input type="text" name="price" placeholder="price" style="margin-top: 10px;"><br>
+ 		<button type="submit" class="btn btn-danger">Добавить</button>
  	</form>
 </div>
 
